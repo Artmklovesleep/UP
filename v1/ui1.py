@@ -10,9 +10,7 @@
 
 from PyQt5 import QtCore, QtGui, QtWidgets
 class BankInterest(object):
-    '''Class contains two functions to calculate different interests for loans.
-Input parameters are loan amount, loan period in years, and interests on the loan.
-Example: 1000000, 10, 15'''
+
 
     def __init__(self, summ, period, perc):
         self.summ = summ
